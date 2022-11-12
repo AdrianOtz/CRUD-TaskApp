@@ -1,0 +1,7 @@
+This is a CRUD of Tasking App using: HTML, CSS, Bootstrap 4, Local storage API and Java Script.
+
+<!--Code by Adrian Otz.-->
+
+/*-- Contact: --*/
+
+//-- GitHub: https://github.com/AdrianOtz --//

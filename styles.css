@@ -1,0 +1,60 @@
+/* MAIN SETUP */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --boxShd-color: #c2c2c280;
+  --hoverBtn: #7dff6273;
+  --succsBtn: #0e70023f;
+  --hoverDelete: #ff0000;
+  --deleteBtn: #b100006c;
+}
+
+
+/* NAVIGATION STYLES */
+.navbar-brand {
+  border: 3px solid var(--boxShd-color);
+  border-radius: 3rem;
+  transition: .2s;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 2px 3px 3px var(--boxShd-color);
+}
+
+/* MAIN CONTENT STYLES */
+.card-body {
+  box-shadow: 4px 4px 3px 4px var(--boxShd-color);
+}
+
+.form-control {
+  box-shadow: 2px 2px 3px 3px var(--boxShd-color);
+}
+
+
+/* BUTTON SAVE TASK STYLES */
+.btn-outline-success {
+  transition: .2s;
+  box-shadow: 4px 4px 4px 4px var(--succsBtn);
+}
+
+.btn-outline-success:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 6px 50px 10px var(--hoverBtn);
+}
+
+
+/* BUTTON DELETE STYLES */
+.btn-danger {
+  transition: .2s;
+  box-shadow: 4px 4px 4px 4px var(--deleteBtn);
+}
+
+.btn-danger:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 2px var(--hoverDelete);
+}
